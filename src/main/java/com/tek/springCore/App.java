@@ -14,7 +14,7 @@ public class App
        ApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         Student student = (Student)context.getBean("student");
         System.out.println(student.getAddress().getCity());
-       System.out.println("Hello World");
+       System.out.println("Hello Wo");
     
     }
 }
